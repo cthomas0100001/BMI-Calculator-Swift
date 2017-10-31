@@ -1,4 +1,6 @@
 import UIKit
+
+
 // Method to create Body Mass Index
 
 /*
@@ -10,6 +12,8 @@ import UIKit
  and m2 is their height in metres squared.
  
  */
+ 
+ 
 func bodyMassIndex (yourWeight : Float, yourHeight : Float) -> (String) {
     
     let bodyTotals = yourWeight / 2.2    // weight conversion to kg
